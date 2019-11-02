@@ -116,7 +116,7 @@ To restore a file from b2 to /mnt/grl-storage:
 
 Currently I have set the daily bucket to expire objects after 7 days etc. 
 
-Basically I want to have 7 days or backups stored in B2, 4 weekly backups and 3 monthly backups. But... I also don't want to be paying significant B2 storage fees.  Assuming 50Gb of accounts (not there yet) that's 
+Basically I want to have 7 days or backups stored in B2, 4 weekly backups and 3 monthly backups. But... I also don't want to be paying significant B2 storage fees.  Assuming 50Gb of accounts (not there yet) that's :
 
 350Gb of data storage for daily backups each month (daily backups deleted after 7 days). 
 200Gb of weekly storage / month (weekly backups deleted after 7 days)
@@ -124,5 +124,7 @@ Basically I want to have 7 days or backups stored in B2, 4 weekly backups and 3 
 
 == 1Tb of data / month after 12 months
 
-Based on the calculator at http://coststorage.com/compare/backblaze/ it will work out at about $7/month for storage fees (compared o $30/month with Amazon S3)
+Based on the calculator at http://coststorage.com/compare/backblaze/ it will work out at about $7/month for storage fees (compared to $31/month with Amazon S3) as shown in the screenshot below: 
+
+![](images/storage-calculator.png)
 
